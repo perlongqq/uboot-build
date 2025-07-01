@@ -1,6 +1,5 @@
-The build and update image usage as follows:
-Which config needed for us, pls refer to build/board_configs.sh or
-http://opensource.rock-chips.com/wiki_Board_Config
+构建和更新映像的用法如下：我们需要什么配置，请参阅build/board_config s.sh或http://opensource.rock-chips.com/wiki_Board_Config
+
 ##安装依赖
 ```bash
 sudo apt install -y git device-tree-compiler libncurses5 libncurses5-dev build-essential libssl-dev mtools bc python dosfstools flex bison
