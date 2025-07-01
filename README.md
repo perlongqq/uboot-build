@@ -1,6 +1,11 @@
 The build and update image usage as follows:
 Which config needed for us, pls refer to build/board_configs.sh or
 http://opensource.rock-chips.com/wiki_Board_Config
+##安装依赖
+```bash
+sudo apt install -y git device-tree-compiler libncurses5 libncurses5-dev build-essential libssl-dev mtools bc python dosfstools flex bison
+sudo apt install -y gcc-aarch64-linux-gnu
+```
 
 ##Fox example the rk3288-evb Usage:
 
